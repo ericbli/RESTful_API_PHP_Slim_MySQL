@@ -35,3 +35,12 @@ edit file host to add:
 127.0.0.1 slim
 
 ##########################
+Get:
+http://slim/api/customers
+http://slim/api/customer/3
+Post:
+http://slim/api/customer/add
+{"first_name":"AAA","last_name":"BBBBBB","phone":"07634433434","email":"mike.svensson@gmail.com","address":"Ljusgatan 34","city":"stockholm","state":"sweden"}
+
+delete:
+http://slim/api/customer/delete/10
